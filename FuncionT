@@ -1,0 +1,16 @@
+function imprimirSecuenciaDescendente(numero) {
+  if (numero < 0) {
+    return;
+  }
+  console.log(numero);
+  imprimirSecuenciaDescendente(numero - 1);
+}
+imprimirSecuenciaDescendente(10); 
+
+/*
+function imprimirSecuenciaDescendente(numero) {
+  console.log(numero);
+  (numero > 0) && imprimirSecuenciaDescendente(numero - 1);
+}
+imprimirSecuenciaDescendente(10);*/
+
